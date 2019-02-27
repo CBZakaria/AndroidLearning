@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_uri"/>
+    <Button
+        android:id="@+id/WebSite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginButton"
+        android:text="@string/button_web"
+        android:onClick="openWebsite"/>
+
+    <EditText
+        android:id="@+id/location_eddittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_map"/>
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginButton"
+        android:text="@string/button_location"
+        android:onClick="openLocation"/>
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_share"/>
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginButton"
+        android:text="@string/button_share"
+        android:onClick="shareStuff"/>
+
+
+</LinearLayout>

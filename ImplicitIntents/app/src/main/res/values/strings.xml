@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="edittext_map">Tlemcen</string>
+    <string name="button_location">Open Location</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_web">Open Website</string>
+    <string name="edittext_share">Heheheh</string>
+    <string name="button_share">Share This Text</string>
+</resources>
